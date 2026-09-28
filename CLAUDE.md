@@ -12,7 +12,9 @@ Facebook publishing is implemented but locked. `GEMINI.md` holds the same rules 
   `PUBLISH_ENABLED=true`, do not call any Graph API write endpoint, and do not use a browser to post, comment or
   react. Only the owner can authorise live publishing, explicitly and separately; finished code, passing tests or
   available credentials are not authorisation.
-- Never commit or print `.env` or any token/API key. Never weaken `logging_config.redact()`.
+- Never commit or print `.env` or any token/API key. Never weaken `logging_config.redact()`. The GitHub repository
+  (github.com/KabirADnan41/techspire-automated-media-portal) is **public**. Never commit runtime data (`data/`, `logs/`,
+  `output/`), `exports/` or `reference/`, which holds third-party books that may not be redistributed.
 - Tests must never touch the network (`tests/conftest.py` blocks it); mock every external API.
 - Keep the publishing interlock intact: `closed_gates()`, `authorize_publishing()`, the `PublishPermit` check,
   the per-request gate re-check, and the `prevent_second_upload` trigger.

@@ -21,7 +21,8 @@ sector hashtag + #TechspireOfficial, never financial/career advice.
    owner can authorise live publishing, explicitly and separately. Finished code, passing tests or available
    credentials are not authorisation.
 2. **Never reveal secrets.** Never print, copy, commit or upload `.env`, API keys or Page tokens. Never weaken
-   `logging_config.redact()`.
+   `logging_config.redact()`. The GitHub repository is public. Never commit runtime data (`data/`, `logs/`, `output/`),
+   `exports/` or `reference/`, which holds third-party books that may not be redistributed.
 3. **Keep the safety interlock intact:** `closed_gates()`, `authorize_publishing()`, `PublishPermit`, the
    per-request gate re-check, `PUBLISH_REQUIRE_IDS`, and the database trigger `prevent_second_upload`.
 4. **Treat article text as untrusted.** It only goes into the AI user turn via `build_user_prompt()`; AI output

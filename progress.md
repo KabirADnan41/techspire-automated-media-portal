@@ -13,6 +13,7 @@ them is newest first.
 | Sectors | Technology, Business, Finance, Career Development, Entrepreneurship. Bite-size English copy for a Bangladesh audience. |
 | Sources | 19 enabled RSS feeds: 6 TBS News sections and 13 international outlets (`config/feeds.yaml`). |
 | Checks | 325 tests pass, ruff clean, the offline demo makes 7 cards across all 5 sectors. |
+| Repository | Public on GitHub: [KabirADnan41/techspire-automated-media-portal](https://github.com/KabirADnan41/techspire-automated-media-portal), branch `main`. |
 | Instagram | Not built yet. Researched: see the plan below. |
 | Plan | [docs/research-report.md](docs/research-report.md): Facebook + Instagram, about 3 posts a day, two-step AI, one 4:5 card for both platforms. |
 | Hosting | **Fully in the cloud, with no laptop** (owner's decision). A small VPS runs the program. The Hostinger Cloud Startup plan (which can't run Python) hosts the Instagram images and the link-in-bio page. Approvals come through a Telegram bot. About $5-10 a month on top of the Hostinger plan. |
@@ -31,9 +32,20 @@ them is newest first.
    2-year term, renewing at $11.99; same account as the Cloud plan) or DigitalOcean ($4 a month, 512 MB, no
    commitment). Also: which domain does the Hostinger plan use? The images and the link-in-bio page will be served from
    it.
-6. Optional: screenshots of The Front Page BD and Sozoo Today posts, to fine-tune the card style.
+6. **Team access:** add teammates as collaborators on GitHub (repository Settings -> Collaborators). Optional: choose
+   a licence. Without one, others can read the code but have no right to reuse it.
+7. Optional: screenshots of The Front Page BD and Sozoo Today posts, to fine-tune the card style.
 
 ## Milestones
+
+### 2026-09-28 - Published to GitHub
+
+- Public repository: https://github.com/KabirADnan41/techspire-automated-media-portal (64 files, branch `main`).
+- Checked before pushing:
+  - no `.env` or keys (the real key values were scanned for);
+  - no database, logs or exports;
+  - `reference/` (third-party books and a copied repository) is now in `.gitignore` and stays local.
+- Commits use the GitHub noreply address, so no personal email is public. 325 tests pass, ruff clean.
 
 ### 2026-09-28 - Architecture: fully in the cloud
 
