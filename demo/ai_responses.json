@@ -1,0 +1,98 @@
+{
+  "https://demo-news.techspire.invalid/ai/nimbus-open-weight-model?utm_source=rss&utm_medium=feed": {
+    "is_relevant": true,
+    "category": "TECHNOLOGY",
+    "catchy_headline": "Nimbus Labs Releases Open-Weight AI Model for On-Device Coding",
+    "facebook_caption": "Nimbus Labs has released an open-weight language model that runs on laptops, so developers get code completion without sending code to the cloud. It supports 12 programming languages. #Tech #AI #OpenSource #TechspireOfficial",
+    "original_url": "https://demo-news.techspire.invalid/ai/nimbus-open-weight-model?utm_source=rss&utm_medium=feed",
+    "rejection_reason": null
+  },
+  "https://demo-news.techspire.invalid/startups/quantacore-series-b": {
+    "is_relevant": true,
+    "category": "Startups & Funding",
+    "catchy_headline": "Quantacore Raises $40 Million to Scale Photonic AI Chip Production",
+    "facebook_caption": "Photonic computing startup Quantacore has raised $40 million in a Series B round to expand production of its light-based AI chips. #Entrepreneurship #Startups #Funding #TechspireOfficial",
+    "original_url": "https://demo-news.techspire.invalid/startups/quantacore-series-b",
+    "rejection_reason": null
+  },
+  "https://demo-news.techspire.invalid/politics/spending-bill": {
+    "is_relevant": false,
+    "category": null,
+    "catchy_headline": null,
+    "facebook_caption": null,
+    "original_url": null,
+    "rejection_reason": "The article is about a partisan political debate, not business or finance news."
+  },
+  "https://demo-news.techspire.invalid/sports/harbor-city-title": {
+    "is_relevant": false,
+    "category": null,
+    "catchy_headline": null,
+    "facebook_caption": null,
+    "original_url": null,
+    "rejection_reason": "The article covers a basketball championship, which is sports news."
+  },
+  "https://demo-news.techspire.invalid/economy/rates-steady": {
+    "is_relevant": true,
+    "category": "FINANCE",
+    "catchy_headline": "Central Bank Holds Interest Rates Steady as Inflation Cools",
+    "facebook_caption": "The central bank has left its benchmark interest rate unchanged, pointing to slowing inflation and steady employment. #Finance #InterestRates #Economy #TechspireOfficial",
+    "original_url": "https://demo-news.techspire.invalid/economy/rates-steady",
+    "rejection_reason": null
+  },
+  "https://demo-news.techspire.invalid/misc/instruction-test": {
+    "is_relevant": false,
+    "category": null,
+    "catchy_headline": null,
+    "facebook_caption": null,
+    "original_url": null,
+    "rejection_reason": "The item contains instructions rather than news, so it is not relevant."
+  },
+  "https://demo-news.techspire.invalid/cloud/helio-regions": {
+    "is_relevant": true,
+    "category": "TECHNOLOGY",
+    "catchy_headline": "Helio Cloud Opens 5 New Data Center Regions for AI Workloads",
+    "facebook_caption": "Helio Cloud has opened 5 new data center regions that add GPU capacity for AI customers. #Tech #Cloud #AI #TechspireOfficial",
+    "original_url": "https://demo-news.techspire.invalid/cloud/helio-regions",
+    "rejection_reason": null
+  },
+  "https://demo-security.techspire.invalid/research/vpn-zero-day": {
+    "is_relevant": true,
+    "category": "TECHNOLOGY",
+    "catchy_headline": "Arclight Researchers Expose VPN Zero-Day Used for Remote Access",
+    "facebook_caption": "Security firm Arclight disclosed a zero-day flaw in a widely deployed VPN appliance that attackers used to gain remote access. The vendor has released a patch. #Tech #Cybersecurity #ZeroDay #TechspireOfficial",
+    "original_url": "https://demo-security.techspire.invalid/research/vpn-zero-day",
+    "rejection_reason": null
+  },
+  "https://demo-business.techspire.invalid/rmg/meridian-export-order": {
+    "is_relevant": true,
+    "category": "BUSINESS",
+    "catchy_headline": "Dhaka's Meridian Textiles Wins $120 Million Export Order From Europe",
+    "facebook_caption": "Dhaka-based garment maker Meridian Textiles has won a $120 million order from three European retailers, its largest export contract so far. #Business #Bangladesh #RMG #TechspireOfficial",
+    "original_url": "https://demo-business.techspire.invalid/rmg/meridian-export-order",
+    "rejection_reason": null
+  },
+  "https://demo-business.techspire.invalid/careers/data-skills-survey": {
+    "is_relevant": true,
+    "category": "CAREER DEVELOPMENT",
+    "catchy_headline": "Employers Now Rank Data Skills Among Top Hiring Priorities, Survey Finds",
+    "facebook_caption": "A Talentbridge survey of 500 employers found data analysis now ranks among the three most wanted skills, ahead of project management. #Careers #Skills #Jobs #TechspireOfficial",
+    "original_url": "https://demo-business.techspire.invalid/careers/data-skills-survey",
+    "rejection_reason": null
+  },
+  "https://demo-business.techspire.invalid/startups/tiffingo-profitable": {
+    "is_relevant": true,
+    "category": "ENTREPRENEURSHIP",
+    "catchy_headline": "Chattogram Startup TiffinGo Turns Profitable Two Years After Launch",
+    "facebook_caption": "Chattogram food-delivery startup TiffinGo says it became profitable 24 months after launch by keeping a small network of home kitchens. #Entrepreneurship #Startups #Bangladesh #TechspireOfficial",
+    "original_url": "https://demo-business.techspire.invalid/startups/tiffingo-profitable",
+    "rejection_reason": null
+  },
+  "https://demo-business.techspire.invalid/entertainment/lina-rae-tour": {
+    "is_relevant": false,
+    "category": null,
+    "catchy_headline": null,
+    "facebook_caption": null,
+    "original_url": null,
+    "rejection_reason": "The article is about a pop star's concert tour, which is entertainment."
+  }
+}

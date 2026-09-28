@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Runtime state and generated output (keep the folders)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+logs/*.log
+logs/*.log.*
+output/images/*
+output/previews/*
+output/demo/
+!output/images/.gitkeep
+!output/previews/.gitkeep
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# AI-assistant exports (scripts/export_for_ai.py)
+exports/
+
+# Local reference library: third-party books and a copied repository. Their licences don't allow
+# redistribution, so they stay on the owner's machine and are never pushed.
+reference/

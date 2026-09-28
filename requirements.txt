@@ -1,0 +1,12 @@
+# Runtime dependencies (tested with Python 3.14.7 on Windows 11)
+feedparser==6.0.14
+httpx==0.28.1
+Pillow==12.3.0
+python-dotenv==1.2.3
+pydantic==2.13.5
+tenacity==9.1.4
+beautifulsoup4==4.15.0
+PyYAML==6.0.3
+# AI provider SDKs (current, non-deprecated packages)
+google-genai==2.25.0
+openai==3.19.2

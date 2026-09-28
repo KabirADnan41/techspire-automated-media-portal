@@ -1,0 +1,155 @@
+# Techspire Official - feed list for the five sectors:
+# Technology, Business, Finance, Career Development, Entrepreneurship.
+#
+# Every enabled feed was checked (read-only) on 2026-09-28 through Techspire's own fetcher,
+# with all safety checks on. The AI editor decides the sector of each story; the grouping
+# below only shows where each source is strongest.
+# Style references (not sources): The Front Page BD, Nutshell Today, Sozoo Today.
+#
+#   - add a feed:     copy an entry, give it a unique name and its RSS/Atom URL
+#   - pause a feed:   set enabled: false
+#   - remove a feed:  delete its entry
+# Test your changes with:  python -m techspire.main --check-feeds
+
+feeds:
+  # --- Bangladesh: The Business Standard (TBS News) ------------------------------
+  - name: TBS Economy
+    url: https://www.tbsnews.net/economy/rss.xml
+    enabled: true
+  - name: TBS Stocks
+    url: https://www.tbsnews.net/economy/stocks/rss.xml
+    enabled: true
+  - name: TBS Corporates
+    url: https://www.tbsnews.net/economy/corporates/rss.xml
+    enabled: true
+  - name: TBS Banking
+    url: https://www.tbsnews.net/economy/banking/rss.xml
+    enabled: true
+  - name: TBS Tech
+    url: https://www.tbsnews.net/tech/rss.xml
+    enabled: true
+  - name: TBS Pursuit (careers and education)
+    url: https://www.tbsnews.net/features/pursuit/rss.xml
+    enabled: true
+  - name: TBS Industry
+    url: https://www.tbsnews.net/economy/industry/rss.xml
+    enabled: false
+  - name: TBS RMG
+    url: https://www.tbsnews.net/economy/rmg/rss.xml
+    enabled: false
+  - name: TBS Energy
+    url: https://www.tbsnews.net/economy/energy/rss.xml
+    enabled: false
+  - name: TBS Bazaar (prices)
+    url: https://www.tbsnews.net/economy/bazaar/rss.xml
+    enabled: false
+  # Dhaka Chronicle (dhakachronicle.net) was checked on 2026-09-28 and not added: it has no RSS feed,
+  # and its news sitemap shows about one article a month in 2026 (latest 16 Sep). If it becomes active,
+  # it can be read through https://dhakachronicle.net/sitemap.xml/news (needs a sitemap reader).
+
+  # --- Technology -----------------------------------------------------------------
+  - name: TechCrunch
+    url: https://techcrunch.com/feed/
+    enabled: true
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    enabled: true
+  - name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+    enabled: true
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    enabled: false
+  - name: Wired
+    url: https://www.wired.com/feed/rss
+    enabled: false
+  - name: BleepingComputer
+    url: https://www.bleepingcomputer.com/feed/
+    enabled: false
+  - name: Engadget
+    url: https://www.engadget.com/rss.xml
+    enabled: false
+  - name: MIT Technology Review
+    url: https://www.technologyreview.com/feed/
+    enabled: false
+  - name: Krebs on Security
+    url: https://krebsonsecurity.com/feed/
+    enabled: false
+  - name: The Register
+    url: https://www.theregister.com/headlines.atom
+    enabled: false
+  - name: GitHub Blog
+    url: https://github.blog/feed/
+    enabled: false
+  - name: ZDNET
+    url: https://www.zdnet.com/news/rss.xml
+    enabled: false
+  # Direct https URL: /feeds/all redirects through plain http, which Techspire refuses.
+  - name: Tom's Hardware
+    url: https://www.tomshardware.com/feeds.xml
+    enabled: false
+  # Returned HTTP 429 (rate limited) during the check; re-test before enabling.
+  - name: VentureBeat
+    url: https://venturebeat.com/feed/
+    enabled: false
+
+  # --- Business -------------------------------------------------------------------
+  - name: BBC Business
+    url: https://feeds.bbci.co.uk/news/business/rss.xml
+    enabled: true
+  - name: The Guardian Business
+    url: https://www.theguardian.com/business/rss
+    enabled: true
+  - name: Fortune
+    url: https://fortune.com/feed/
+    enabled: true
+  - name: CNBC Business
+    url: https://www.cnbc.com/id/10001147/device/rss/rss.html
+    enabled: false
+  - name: Fast Company
+    url: https://www.fastcompany.com/latest/rss
+    enabled: false
+  - name: Business Insider
+    url: https://feeds.businessinsider.com/custom/all
+    enabled: false
+
+  # --- Finance --------------------------------------------------------------------
+  - name: CNBC Finance
+    url: https://www.cnbc.com/id/10000664/device/rss/rss.html
+    enabled: true
+  - name: MarketWatch
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+    enabled: true
+  # No summaries in this feed; the AI would only see headlines.
+  - name: Yahoo Finance
+    url: https://finance.yahoo.com/news/rssindex
+    enabled: false
+  - name: The Economist Finance
+    url: https://www.economist.com/finance-and-economics/rss.xml
+    enabled: false
+
+  # --- Career development ---------------------------------------------------------
+  - name: Guardian Work and Careers
+    url: https://www.theguardian.com/money/work-and-careers/rss
+    enabled: true
+  - name: Indeed Hiring Lab
+    url: https://www.hiringlab.org/feed/
+    enabled: true
+  # Not updated recently (last items August 2026); re-test before enabling.
+  - name: CNBC Make It
+    url: https://www.cnbc.com/id/44877279/device/rss/rss.html
+    enabled: false
+
+  # --- Entrepreneurship -----------------------------------------------------------
+  - name: Inc.
+    url: https://www.inc.com/rss/
+    enabled: true
+  - name: Entrepreneur
+    url: https://www.entrepreneur.com/latest.rss
+    enabled: true
+  - name: Small Business Trends
+    url: https://smallbiztrends.com/feed
+    enabled: true
+  - name: TechCrunch Startups
+    url: https://techcrunch.com/category/startups/feed/
+    enabled: false

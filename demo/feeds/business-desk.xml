@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DEMO DATA: fictional companies, people and events, for offline demonstration only. -->
+<rss version="2.0">
+  <channel>
+    <title>Demo Business Desk</title>
+    <link>https://demo-business.techspire.invalid/</link>
+    <description>Fictional sample business, careers and startup news for the Techspire offline demo</description>
+    <language>en</language>
+
+    <item>
+      <title>Dhaka garment maker Meridian Textiles wins $120 million export order</title>
+      <link>https://demo-business.techspire.invalid/rmg/meridian-export-order</link>
+      <guid>demo-biz-201</guid>
+      <pubDate>Mon, 28 Sep 2026 07:30:00 GMT</pubDate>
+      <description>Dhaka-based garment maker Meridian Textiles has won a $120 million order from three European retailers, its largest export contract, and plans to add a new production line to meet it.</description>
+    </item>
+
+    <item>
+      <title>Employers rank data skills among top hiring priorities, survey finds</title>
+      <link>https://demo-business.techspire.invalid/careers/data-skills-survey</link>
+      <guid>demo-career-202</guid>
+      <pubDate>Mon, 28 Sep 2026 06:20:00 GMT</pubDate>
+      <description>A survey of 500 employers by recruitment platform Talentbridge found that data analysis now ranks among the three most wanted skills, ahead of project management.</description>
+    </item>
+
+    <item>
+      <title>Chattogram food-delivery startup TiffinGo turns profitable in two years</title>
+      <link>https://demo-business.techspire.invalid/startups/tiffingo-profitable</link>
+      <guid>demo-startup-203</guid>
+      <pubDate>Mon, 28 Sep 2026 05:40:00 GMT</pubDate>
+      <description>TiffinGo, which delivers home-cooked lunches to office workers in Chattogram, says it reached profitability 24 months after launch by keeping a small network of home kitchens.</description>
+    </item>
+
+    <item>
+      <title>Pop star Lina Rae announces surprise world tour dates</title>
+      <link>https://demo-business.techspire.invalid/entertainment/lina-rae-tour</link>
+      <guid>demo-ent-204</guid>
+      <pubDate>Mon, 28 Sep 2026 05:00:00 GMT</pubDate>
+      <description>Singer Lina Rae surprised fans by announcing a world tour, with ticket sales opening next week.</description>
+    </item>
+  </channel>
+</rss>

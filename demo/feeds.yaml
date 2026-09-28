@@ -1,0 +1,16 @@
+# Offline demo feeds (used only by: python -m techspire.main --demo).
+# The .invalid domain is reserved (RFC 2606) and can never resolve; the demo serves
+# these URLs from demo/feeds/ through an in-memory transport.
+feeds:
+  - name: Demo Tech Wire
+    url: https://demo-feeds.techspire.invalid/tech-wire.xml
+    enabled: true
+  - name: Demo Security Desk
+    url: https://demo-feeds.techspire.invalid/security-desk.xml
+    enabled: true
+  - name: Demo Business Desk
+    url: https://demo-feeds.techspire.invalid/business-desk.xml
+    enabled: true
+  - name: Demo Broken Feed
+    url: https://demo-feeds.techspire.invalid/broken.xml
+    enabled: true

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DEMO DATA: fictional companies and events, for offline demonstration only. -->
+<rss version="2.0">
+  <channel>
+    <title>Demo Security Desk</title>
+    <link>https://demo-security.techspire.invalid/</link>
+    <description>Fictional sample security news for the Techspire offline demo</description>
+
+    <item>
+      <title>Arclight researchers detail zero-day flaw in popular VPN appliance as vendor ships patch</title>
+      <link>https://demo-security.techspire.invalid/research/vpn-zero-day</link>
+      <guid>demo-sec-101</guid>
+      <pubDate>Mon, 28 Sep 2026 07:45:00 GMT</pubDate>
+      <description><![CDATA[Security firm Arclight disclosed a zero-day vulnerability in a widely deployed VPN appliance that attackers used to gain remote access. The vendor has released a patch and urged customers to update immediately.]]></description>
+    </item>
+
+    <item>
+      <title>Quantacore raises $40 million Series B to scale photonic chip production</title>
+      <link>https://demo-security.techspire.invalid/syndicated/quantacore</link>
+      <guid>demo-sec-102</guid>
+      <pubDate>Mon, 28 Sep 2026 06:30:00 GMT</pubDate>
+      <description>Syndicated copy of the same funding story from another outlet.</description>
+    </item>
+  </channel>
+</rss>
